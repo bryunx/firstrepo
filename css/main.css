@@ -143,9 +143,32 @@ ul.right li a {
 	letter-spacing: 0.1px;
 	font-size: 18px;
 }
+/*Media Viewport*/
+@media (max-width:650px){
+	.searchBox input {
+		width: 80%;}
+}
+@media (max-width:597px) {
+	ul.left, ul.right {
+	float: none;
+	text-align: center;}
+}
+@media (max-width:550px) {
+	ul.right {
+		padding-left: 20px;}
+	div.searchBox img{
+		width: 50%;}
+}
+@media (max-width:400px) {
+	ul.nav {
+		padding-left: 0;}
+	ul.nav li {
+		margin: 0;
+		padding: 5px;
+		}
+}
 
-
-
+/*
 @media screen and (max-width: 1000px) {
 	.searchBox input {
 		width: 650px;
@@ -191,4 +214,4 @@ ul.right li a {
 	div.buttons button {
 		padding: 5px 12px;
 	}
-}
+}*/
