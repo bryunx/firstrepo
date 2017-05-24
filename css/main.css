@@ -30,6 +30,16 @@ ul.nav li{
 	margin: 5px 5px 0 0;
 	font-size: 13px;
 }
+ul.nav li.back{
+	float: left;
+	z-index: -1;
+	display: left;
+	list-style-position: left;
+	text-align: left;
+	margin-left: 200px;
+	font-size: 13px;
+	right: 370px;
+}
 .fa{
 	font-size: 20px;
 	vertical-align: top;
@@ -168,7 +178,7 @@ ul.right li a {
 		}
 }
 
-/*
+/*Media Query*/
 @media screen and (max-width: 1000px) {
 	.searchBox input {
 		width: 650px;
@@ -214,4 +224,4 @@ ul.right li a {
 	div.buttons button {
 		padding: 5px 12px;
 	}
-}*/
+}
