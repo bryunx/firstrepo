@@ -178,7 +178,11 @@ ul.right li a {
 		}
 }
 
+<<<<<<< HEAD
 /*Media Query*/
+=======
+/*Media Query*/ 
+>>>>>>> update
 @media screen and (max-width: 1000px) {
 	.searchBox input {
 		width: 650px;
